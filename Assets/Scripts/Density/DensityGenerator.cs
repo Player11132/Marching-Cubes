@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class DensityGenerator : MonoBehaviour {
+public  class DensityGenerator : MonoBehaviour {
 
     const int threadGroupSize = 8;
     public ComputeShader densityShader;
